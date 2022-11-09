@@ -15,6 +15,9 @@ Snack 1
         esempio: dati i valori min: 2 e come max: 4 i nomi nell'array nuovo saranno i nomi compresi tra queste posizioni 2 e 4
 
 
+        
+
+
 Snack 2
         Dato un elenco degli studenti di una facoltà, con il totale dei loro voti
         let students = [
