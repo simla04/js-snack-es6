@@ -88,31 +88,44 @@
 
  
 
-const { nome, peso }= biciDaCorsa;
+// const { nome, peso } = biciDaCorsa;
 // console.log( nome, peso )
 
     const biciDaCorsa = [
         {
-            nome: 'blu';
-            peso: 20;
+            nome: 'blu',
+            peso: '20'
         },
         {
-            nome: 'rossa';
-            peso: 30;
+            nome: 'rossa',
+            peso: 30
         },
         {
-            nome: 'verde';
-            peso: 22;
+            nome: 'verde',
+            peso: 22
         },
         {
-            nome: 'gialla';
-            peso: 35;
+            nome: 'gialla',
+            peso: 35
         },
         {
-            nome: 'blu';
-            peso: 13;
+            nome: 'blu',
+            peso: 13
         },
     ]
+
+
+    biciDaCorsa.forEach( ( { nome, peso } , index) => {
+        console.log( nome, alimentazione ) // 1°giro ciclo: blu 20, 2°giro ciclo: rossa 30,..
+    })
+
+    console.log( biciDaCorsa[1].nome, biciDaCorsa[1].peso )
+
+    // destrutturazione di un oggetto singolo
+    // const{ nome, peso } = biciDaCorsa[1];
+
+    // console.log( nome, peso )
+
     
 
 
