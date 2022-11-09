@@ -91,42 +91,42 @@
 // const { nome, peso } = biciDaCorsa;
 // console.log( nome, peso )
 
-    const biciDaCorsa = [
-        {
-            nome: 'blu',
-            peso: '20'
-        },
-        {
-            nome: 'rossa',
-            peso: 30
-        },
-        {
-            nome: 'verde',
-            peso: 22
-        },
-        {
-            nome: 'gialla',
-            peso: 35
-        },
-        {
-            nome: 'blu',
-            peso: 13
-        },
-    ]
+    // const biciDaCorsa = [
+    //     {
+    //         nome: 'blu',
+    //         peso: '20'
+    //     },
+    //     {
+    //         nome: 'rossa',
+    //         peso: 30
+    //     },
+    //     {
+    //         nome: 'verde',
+    //         peso: 22
+    //     },
+    //     {
+    //         nome: 'gialla',
+    //         peso: 35
+    //     },
+    //     {
+    //         nome: 'blu',
+    //         peso: 13
+    //     },
+    // ]
 
 
-    biciDaCorsa.forEach( ( { nome, peso } , index) => {
-        console.log( nome, alimentazione ) // 1°giro ciclo: blu 20, 2°giro ciclo: rossa 30,..
-    })
+    // biciDaCorsa.forEach( ( { nome, peso } , index) => {
+    //     console.log( nome, alimentazione ) // 1°giro ciclo: blu 20, 2°giro ciclo: rossa 30,..
+    // })
 
-    console.log( biciDaCorsa[1].nome, biciDaCorsa[1].peso )
+    // console.log( biciDaCorsa[1].nome, biciDaCorsa[1].peso )
 
-    // destrutturazione di un oggetto singolo
-    // const{ nome, peso } = biciDaCorsa[1];
+    // // destrutturazione di un oggetto singolo
+    // // const{ nome, peso } = biciDaCorsa[1];
 
-    // console.log( nome, peso )
+    // // console.log( nome, peso )
 
-    
+
 
 
 
@@ -134,11 +134,45 @@
 
 //NOTE - Snack4
 // Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti. Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
-// Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti. Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+// Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti. 
+// Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 // segno_spunta_bianco
 // occhi
 // mani_alzate
 
+
+const squadreDiCalcio = [
+    {
+        nome: 'blu',
+        puntiFatti: ' 0',
+        falliFaSubiti: '0'
+    },
+    {
+        nome: 'rossa',
+        puntiFatti: '0',
+    falliSubiti: '0'   },
+    {
+        nome: 'verde',
+        puntiFatti: '0 ',
+    falliSubiti: ' 0'   },
+    {
+        nome: 'gialla',
+        puntiFatti: ' 0',
+    falliSubiti: '0'   },
+    {
+        nome: 'blu',
+        puntiFatti: ' 0',
+    falliSubiti: ' 0'   },
+]
+
+const puntiFatti = Math.floor(Math.random() * 10);
+console.log(puntiFatti);
+
+const falliSubiti = Math.floor(Math.random() * 10);
+console.log(falliSubiti);
+
+
+//  da usare l'operatore spread per copiare e unire solo alcune proprietà
 
 
 
